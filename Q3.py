@@ -4,7 +4,6 @@ def pi():
     prox_imp = 1
     pi = 4*(1/prox_imp)
     anterior = -1000000
-    print(pi,'qqqq')
     while abs(pi-anterior) > (5*pow(10,-8)):
         anterior = pi
         
